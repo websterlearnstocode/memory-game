@@ -1,58 +1,3 @@
-console.log("script loaded");
-
-const images = [
-  { id: "1", src: "images2/img1.png" },
-  { id: "2", src: "images2/img2.png" },
-  { id: "3", src: "images2/img3.png" },
-  { id: "4", src: "images2/img4.png" },
-  { id: "5", src: "images2/img5.png" },
-  { id: "6", src: "images2/img6.png" },
-  { id: "7", src: "images2/img7.png" },
-  { id: "8", src: "images2/img8.png" },
-  { id: "9", src: "images2/img9.png" },
-  { id: "10", src: "images2/img10.png" },
-  { id: "11", src: "images2/img11.png" },
-  { id: "12", src: "images2/img12.png" },
-  { id: "13", src: "images2/img13.png" },
-  { id: "14", src: "images2/img14.png" },
-  { id: "15", src: "images2/img15.png" },
-  { id: "16", src: "images2/img16.png" },
-  { id: "17", src: "images2/img17.png" },
-  { id: "18", src: "images2/img18.png" },
-  { id: "19", src: "images2/img19.png" },
-  { id: "20", src: "images2/img20.png" },
-  { id: "21", src: "images2/img21.png" },
-  { id: "22", src: "images2/img22.png" },
-  { id: "23", src: "images2/img23.png" },
-  { id: "24", src: "images2/img24.png" },
-  { id: "25", src: "images2/img25.png" },
-  { id: "26", src: "images2/img26.png" },
-  { id: "27", src: "images2/img27.png" },
-  { id: "28", src: "images2/img28.png" },
-  { id: "29", src: "images2/img29.png" },
-  { id: "30", src: "images2/img30.png" },
-  { id: "31", src: "images2/img31.png" },
-  { id: "32", src: "images2/img32.png" },
-  { id: "33", src: "images2/img33.png" },
-  { id: "34", src: "images2/img34.png" },
-  { id: "35", src: "images2/img35.png" },
-  { id: "36", src: "images2/img36.png" },
-  { id: "37", src: "images2/img37.png" },
-  { id: "38", src: "images2/img38.png" },
-  { id: "39", src: "images2/img39.png" },
-  { id: "40", src: "images2/img40.png" },
-  { id: "41", src: "images2/img41.png" },
-  { id: "42", src: "images2/img42.png" },
-  { id: "43", src: "images2/img43.png" },
-  { id: "44", src: "images2/img44.png" },
-  { id: "45", src: "images2/img45.png" },
-  { id: "46", src: "images2/img46.png" },
-  { id: "47", src: "images2/img47.png" },
-  { id: "48", src: "images2/img48.png" },
-  { id: "49", src: "images2/img49.png" },
-  { id: "0", src: "images2/img0.png" },
-];
-
 const container = document.querySelector(".container");
 
 function createImgTiles() {
@@ -72,7 +17,7 @@ function createImgTiles() {
   }
 }
 
-function shuffleDeck() {
+function randomDecks() {
   let array = Array.from(container.children);
 
   let newArray = [];
